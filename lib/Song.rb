@@ -11,15 +11,15 @@ class Song
     @@all
   end
 
-  def save
+  def self.save
     @@all << self
   end
 
-  def destroy_all
+  def self.destroy_all
     @@all.clear
   end
 
-  def create
+  def self.create
     
   end
 end
