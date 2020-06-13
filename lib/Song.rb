@@ -19,9 +19,12 @@ class Song
 
   def self.new_from_filename(filename)
     array = filename.split(" - ")
-    artist = array[0]
-    name = array[1]
-    genre = array[2].pop(".mp3")
+    artist_name = array[0]
+    song_name = array[1]
+    genre_name = array[2].pop(".mp3")
+    genre = Genre.find_or_create_by_name(genre_name)
+    artist = Artist.find_or_create_by_name(artist_name)
+    self.new(song_name, artist, genre)
 
   end
   # initializes a song based on the passed-in filename
