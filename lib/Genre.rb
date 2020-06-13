@@ -19,7 +19,9 @@ class Genre
     @@all.clear
   end
 
-  def self.create
-
+  def self.create(genre)
+    genre = self.new(song)
+    self.save
+    song
   end
 end
