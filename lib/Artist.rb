@@ -22,4 +22,4 @@ class Artist
   def create
 
   end
-end 
+end
