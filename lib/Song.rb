@@ -18,7 +18,7 @@ class Song
   end
 
   def self.new_from_filename(name)
-    
+
 
   end
   # initializes a song based on the passed-in filename
