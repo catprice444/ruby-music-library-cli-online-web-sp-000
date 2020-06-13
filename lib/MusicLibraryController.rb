@@ -8,5 +8,5 @@ class MusicLibraryController
 
   def call
     "Welcome to your music libary!"
-  end 
+  end
 end
