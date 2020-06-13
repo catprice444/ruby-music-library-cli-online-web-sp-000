@@ -21,7 +21,7 @@ class Song
 
   def self.create(song_name)
     song_name = self.new
-    self.save << song_name 
+    self.save << song_name
     song_name
   end
 end
