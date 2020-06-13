@@ -57,6 +57,10 @@ class MusicLibraryController
     puts "Please enter the name of an artist:"
     input = gets.strip
 
+    if input = Artist.name
+      Artist.all.sort{|a,b| a.name <=> b.name}.each_with_index do |artist, i|
+      puts "#{i+1}. #{}"
+
   end
 
   def list_songs_by_genre
