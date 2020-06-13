@@ -1,5 +1,5 @@
 module Concerns::Findable
-  
+
   def self.find_by_name(name)
     self.all.detect {|song| song.name == name}
   end
@@ -8,4 +8,4 @@ module Concerns::Findable
     self.find_by_name(name) || self.create(name)
   end
   
-end 
+end
