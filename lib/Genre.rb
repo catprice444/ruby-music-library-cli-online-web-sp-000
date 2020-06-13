@@ -19,7 +19,7 @@ class Genre
     @@all.clear
   end
 
-  def create
+  def self.create
 
   end
 end
