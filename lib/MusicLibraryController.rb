@@ -5,7 +5,5 @@ class MusicLibraryController
     @path = path
     MusicImporter.new(path)
     musicimporter.import
-
-
   end
 end
