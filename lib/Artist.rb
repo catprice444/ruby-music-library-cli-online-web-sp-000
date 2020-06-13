@@ -8,8 +8,8 @@ class Artist
   end
 
   def genres
-    @songs.genre
-  end 
+    @genre
+  end
 
 
   def add_song(song)
