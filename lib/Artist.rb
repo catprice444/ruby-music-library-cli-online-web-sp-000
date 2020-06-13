@@ -1,4 +1,5 @@
 class Artist
+  extend Concerns::Findable
   attr_accessor :name, :song, :genre
   @@all = []
 
@@ -15,7 +16,7 @@ class Artist
       else
         @new_array << song.genre
       end
-    end 
+    end
       @new_array
   end
 
