@@ -30,7 +30,7 @@ class Song
   #   initializes and saves a song based on the passed-in filename
     # invokes .new_from_filename instead of re-coding the same functionality
 
-  def self.create_from_filename
+  def self.create_from_filename(filename)
   end
 
   def genre=(genre)
