@@ -9,19 +9,19 @@ class Genre
 
   def songs
     @songs
-  end 
+  end
 
-  def artist 
+  def artist
     @new_array = []
     @songs.each do |song|
       if @new_array.include?(song.artist)
-        nil 
-      else 
-        @new_array << song.artist 
-      end 
-    end 
+        nil
+      else
+        @new_array << song.artist
+      end
+    end
     @new_array
-  end 
+  end
 
   def self.all
     @@all
