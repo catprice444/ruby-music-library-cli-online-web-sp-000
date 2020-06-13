@@ -17,7 +17,7 @@ class Song
     @genre
   end
 
-  def self.new_from_filename(name)
+  def self.new_from_filename(song)
 
 
   end
