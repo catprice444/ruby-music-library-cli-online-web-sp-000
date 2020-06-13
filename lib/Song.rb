@@ -31,7 +31,7 @@ class Song
 
   def artist=(artist)
     @artist = artist
-    Artist.add_song
+    artist.add_song(self)
   end
 
   def save
