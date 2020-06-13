@@ -24,8 +24,14 @@ class Song
     @genre
   end
 
-  def self.new_from_filename
+  def self.new_from_filename(song)
+    
   end
+  # initializes a song based on the passed-in filename
+  #   invokes the appropriate Findable methods so as to avoid duplicating objects
+
+  #   initializes and saves a song based on the passed-in filename
+    # invokes .new_from_filename instead of re-coding the same functionality
 
   def self.create_from_filename
   end 
