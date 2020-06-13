@@ -15,11 +15,11 @@ class Song
     @@all << self
   end
 
-  def self.destroy_all
+  def destroy_all
     @@all.clear
   end
 
-  def self.create
+  def create
 
   end
 end
