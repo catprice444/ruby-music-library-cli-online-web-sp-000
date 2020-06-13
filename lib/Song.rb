@@ -25,7 +25,7 @@ class Song
   end
 
   def self.new_from_filename
-  end 
+  end
 
   def self.create_from_filename
   end 
