@@ -9,7 +9,7 @@ class Artist
 
   def genres
     @songs.genre
-    
+
 
   def add_song(song)
     if song.artist == nil
