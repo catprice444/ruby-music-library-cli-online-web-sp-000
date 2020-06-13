@@ -4,7 +4,7 @@ class Artist
 
   def initialize(name)
     @name = name
-    self.save
+    # self.save
   end
 
   def self.all
@@ -19,7 +19,7 @@ class Artist
     @@all.clear
   end
 
-  def create
+  def self.create
 
   end
 end
