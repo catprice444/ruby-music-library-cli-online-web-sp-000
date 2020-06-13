@@ -8,7 +8,7 @@ class Artist
   end
 
   def genres
-    @genre
+    @new_array = []
   end
 
 
