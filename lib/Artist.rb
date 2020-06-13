@@ -9,6 +9,7 @@ class Artist
 
   def genres
     @songs.genre
+  end 
 
 
   def add_song(song)
