@@ -12,6 +12,8 @@ class Song
     @@all
   end
 
+  def self.find_by_name(song)
+
   def save
     @@all << self
   end
