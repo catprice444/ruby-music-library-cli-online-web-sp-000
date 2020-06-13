@@ -21,7 +21,7 @@ class Artist
 
   def self.create(artist)
     artist = self.new(artist)
-    self.save
+    artist.save
     artist
   end
 end
