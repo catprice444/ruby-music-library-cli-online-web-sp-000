@@ -7,6 +7,10 @@ class Artist
     @songs = []
   end
 
+  def genres
+    @songs.genre
+    
+
   def add_song(song)
     if song.artist == nil
       song.artist = self
