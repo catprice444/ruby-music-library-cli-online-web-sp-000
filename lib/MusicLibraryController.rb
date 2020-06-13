@@ -37,7 +37,7 @@ class MusicLibraryController
   end
 
   def list_songs
-    
+
   end
 
   def list_artists
