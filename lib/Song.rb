@@ -18,7 +18,10 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    filename = []
+    info = filename.split(" - ")
+    artist = info[0]
+    name = info[1]
+    genre = info[2].pop(".mp3")
 
   end
   # initializes a song based on the passed-in filename
