@@ -79,7 +79,6 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     inputs = gets.chomp.to_i
 
-    songs = Song.all
     if (1..songs.length).include?(input)
       Song.all.sort{|a, b| a.name <=> b.name}[input - 1]
     end
