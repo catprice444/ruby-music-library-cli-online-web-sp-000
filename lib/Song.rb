@@ -13,6 +13,10 @@ class Song
   end
 
   def self.find_by_name(song)
+    @@all.each do |name|
+      song.name 
+    end
+  end
 
   def save
     @@all << self
